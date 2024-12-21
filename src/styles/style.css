@@ -1,0 +1,44 @@
+@import "./tachyons.min.css";
+
+:root {
+    --bg-color: #fff;
+    --text-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#mc_embed_signup {
+    background: var(--bg-color);
+    color: var(--text-color);
+    clear: left;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#mc_embed_signup .button {
+    background-color: var(--text-color) !important;
+    color: var(--bg-color) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #000;
+        --text-color: #eee;
+    }
+
+    .b--black-10 {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .black-70 {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .bg-black-70 {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+}
