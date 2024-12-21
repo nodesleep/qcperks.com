@@ -44,12 +44,12 @@ function handleSubmit(event: any) {
                 name="EMAIL"
                 placeholder="you@example.com"
                 required
-                class="input-reset ba b--black-20 pa2 mb3 br2 w-100"
+                class="input-reset ba b--black-20 pa3 mb3 br2 w-100"
                 v-model="email"
             />
             <button
                 type="submit"
-                class="f6 link dim br2 ph3 pv2 mb2 dib white bg-black w-100"
+                class="f6 link dim br2 ph3 pv3 mb2 dib white bg-black w-100"
             >
                 Subscribe
             </button>
