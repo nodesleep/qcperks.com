@@ -11,7 +11,7 @@ import Signup from "../components/Signup.vue";
         <div class="db dt-ns mw9-l center w-100">
             <div class="flex-l w-100 items-center">
                 <header class="fl w-60-l w-100-m w-100-s mb3 mb4-l">
-                    <h1 class="f-headline-l f-subheadline lh-title lh-solid-l">
+                    <h1 class="f-headline-l f1 lh-title lh-solid-l">
                         Receive weekly emails packed with local Quad Cities
                         promotions.
                     </h1>

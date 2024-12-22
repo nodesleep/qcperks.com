@@ -9,11 +9,6 @@ const year = date.getFullYear();
             <div class="fl">
                 <p class="f6 db lh-solid">&copy; {{ year }} info@qcperks.com</p>
             </div>
-            <!-- <div class="flex items-center fr">
-                <div class="h1 w1 mr2 br-100 bg-black-70"></div>
-                <div class="h1 w1 mr2 br-100 bg-black-70"></div>
-                <div class="h1 w1 br-100 bg-black-70"></div>
-            </div> -->
         </div>
     </footer>
 </template>
