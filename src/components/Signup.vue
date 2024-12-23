@@ -24,7 +24,7 @@ function handleSubmit(event: any) {
 </script>
 
 <template>
-    <div class="mw6 center pa4 ba br3">
+    <div class="mw6 center ph3 pv1 pa3-l ba br3">
         <h3 class="f3 f2-m f2-l fw6 mb2">Join the Mailing List</h3>
         <p class="f6 black-70 mb4">
             Subscribe to get Quad City business promotions delivered straight to

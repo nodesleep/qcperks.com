@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from "vue-router";
 import Shape from "../assets/geometric.svg";
 </script>
 
@@ -22,13 +23,11 @@ import Shape from "../assets/geometric.svg";
                 </a>
             </div>
             <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
-                <a
-                    title="Contact"
-                    href="mailto:info@qcperks.com"
+                <router-link
+                    to="/business"
                     class="f6 fw6 link black-70 mr2 mr3-m mr4-l dib dim"
+                    >Want To Promote Your Business? Click here.</router-link
                 >
-                    Local Business? Click here.
-                </a>
             </nav>
         </div>
     </header>
